@@ -1,0 +1,52 @@
+Script started on 2023-01-20 05:20:26+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+# printf "Hello 2023 and the new quarter!"
+Hello 2023 and the new quarter!# 
+# date
+Fri Jan 20 05:20:35 UTC 2023
+# pwd
+/source/520_Assignments/hw_1
+# cd /source
+# ls
+520_Assignments
+# mkdir temp
+# ls
+520_Assignments  temp
+# mv temp temp_new
+# ls
+520_Assignments  temp_new
+# cd temp_new
+# pwd
+/source/temp_new
+# touch file5
+# mv fiu;e   le5 tese t
+# cd ..
+# pwd
+/source
+# rm -r temp_new
+# ls
+520_Assignments
+# echo        echo "It's a secret!" > secretfile
+# ls
+520_Assignments  secretfile
+# chmod u-w secretfile
+# cate  >> secretfile                 chmod u+w secretfile                    cat >.      cat >> f        ls -l
+total 4
+drwxr-xr-x 3 root root 96 Jan 20 05:20 520_Assignments
+-r--r--r-- 1 root root 15 Jan 20 05:23 secretfile
+# ls -l secretfile
+-r--r--r-- 1 root root 15 Jan 20 05:23 secretfile
+# cat >> secretfile << end   *
+> i am Daniel
+> *
+sh: 24: cannot create secretfile: Operation not permitted
+# chmod 744 secretfilue  e
+# cat >> secretfile << ***
+> I am Daniel 
+> ***
+# ls il  -l
+total 4
+drwxr-xr-x 3 root root 96 Jan 20 05:20 520_Assignments
+-rwxr--r-- 1 root root 28 Jan 20 05:40 secretfile
+# exit
+
+Script done on 2023-01-20 05:44:38+00:00 [COMMAND_EXIT_CODE="0"]
