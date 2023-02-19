@@ -3,9 +3,7 @@ public:
     Complex(double real, double imaginary);
     double real();
     double imaginary();
-    Complex conjugate();
-
-    // Operator overloading
+    Complex conjugate();  
     Complex operator+(const Complex& other);
     Complex operator*(const Complex& other);
     bool operator==(const Complex& other);
